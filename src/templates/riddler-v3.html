@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark">
+  <title>CSI-VIT Riddler 2025</title>
+  <style>
+    /* Base styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    table {
+      border-spacing: 0;
+      width: 100%;
+    }
+    td {
+      padding: 0;
+      border: 0;
+    }
+    img {
+      border: 0;
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+    }
+    
+    /* Gmail dark mode blend mode fixes */
+    u + .body .gmail-blend-screen { 
+      background:#000 !important; 
+      mix-blend-mode:screen !important; 
+    }
+    u + .body .gmail-blend-difference { 
+      background:#000 !important; 
+      mix-blend-mode:difference !important; 
+    }
+
+    u + .body .default-text,
+    [data-ogsc] .default-text,
+    .default-text {
+      color: #ffffff !important;
+    }
+
+    /* Specifically target all text elements */
+    u + .body .info-container,
+    [data-ogsc] .info-container,
+    .info-container {
+      color: #ffffff !important;
+    }
+
+    /* Target paragraph text specifically */
+    u + .body p,
+    [data-ogsc] p,
+    .default-text p {
+      color: #ffffff !important;
+    }
+    
+    /* Main content styles */
+    .main {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .background-container {
+      background: #131312 url('https://i.imgur.com/PrqKnD1.png') no-repeat top center / cover;
+      width: 100%;
+      height: 800px;
+      color: #fff;
+    }
+    .content-container {
+      padding-top: 270px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .main-content {
+      border-radius: 15px;
+      color: white;
+      text-align: center;
+      margin: 0 auto;
+      padding: 20px;
+      max-width: 430px;
+    }
+    .social-icon {
+      display: inline-block;
+      margin: 0 8px;
+    }
+    a {
+      color: #970000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    /* Fallback styles for non-Gmail clients */
+    .default-text {
+      color: #ffffff !important;
+    }
+    .default-border {
+      border-top-color: rgba(255,255,255,0.2) !important;
+    }
+
+    a img {
+      -webkit-touch-callout: none;
+      -webkit-text-size-adjust: none;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Specifically target the button image */
+    a[href="riddler.csivit.com"] img {
+      -webkit-filter: none !important;
+      filter: none !important;
+      color-scheme: light only;
+    }
+
+    .social-icon img {
+      -webkit-filter: none !important;
+      filter: none !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .background-container {
+        height: 750px;
+        background-size: 100% 100%;
+      }
+      .content-container {
+        padding-top: 200px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .main-content {
+        width: 90%;
+        padding-bottom: 40px; /* Added to ensure space for social icons */
+      }
+
+      .info-container,
+      table[width="100%"] {
+        font-size: 9px !important;
+      }
+    }
+    @media only screen and (max-width: 440px) {
+      .background-container {
+        height: 800px; /* Increased height to accommodate content */
+        background-size: 100% 100%;
+      }
+      .content-container {
+        padding-top: 120px; /* Adjusted to better center content */
+      }
+      .main-content {
+        padding-top: 90px;
+        padding-bottom: 40px;
+      }
+      .info-container,
+      table[width="100%"] {
+        font-size: 9px !important;
+      }
+      .social-icon{
+        width: 15px;
+        height: 15px;
+      }
+    }
+    @media only screen and (max-width: 375px) {
+      .background-container {
+        height: 780px; /* Further adjustment for smallest screens */
+      }
+      .content-container {
+        padding-top: 100px;
+      }
+      .info-container,
+      table[width="100%"] {
+        font-size: 9px !important;
+      }
+      .social-icon{
+        width: 15px;
+        height: 15px;
+      }
+      
+    }
+  </style>
+</head>
+<body class="body">
+  <center class="wrapper">
+    <table class="main" role="presentation" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>
+          <!-- Background container with blend mode layers -->
+          <div class="background-container">
+            <div class="gmail-blend-screen">
+              <div class="gmail-blend-difference">
+                <div class="content-container">
+                  <div class="main-content default-text">
+                    <table class="info-container" width="100%" style="text-align: left; font-size: 11px; line-height: 1.6;">
+                      <tr>
+                        <td style="padding-bottom: 0px;">
+                          <p>Heya {{name}},</p>
+                          <p>The echoes of the past awaken, ancient specters stirring, the known and unknown are mingling.
+                            Strange voices call out weaving queries, seeking answers. This mysterious convergence of events means one thing.</p>
+                          <p>Riddler is here! <span>👻</span></p>
+                          <p>The stage is set for <strong>2nd April 2025</strong>, the questions are in place all we need is one more thing, you!</p>
+                          <p>Brace yourself for three thrilling days of brain-twisting riddles and mind-bending puzzles! Incredible prizes await, and your skills might just be the ace up your sleeve to emerge victorious. Don't miss this electrifying challenge!</p>
+                          <p>So what are you waiting for? Hop on and get your buddies to join in.</p>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <table width="100%" style="margin:0;">
+                      <tr>
+                        <td style="text-align: center;">
+                          <a href="riddler.csivit.com" target="_blank">
+                              <div class="gmail-blend-screen">
+                                <div class="gmail-blend-difference">
+                                  <img src="https://i.imgur.com/P419DNU.png" alt="Join Riddler" 
+                                       style="width:160px; height:80px; display:block; margin:0 auto;">
+                                </div>
+                              </div>
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- Footer -->
+                    <table class = "info-container" width="100%" style="margin-top: 10px; font-size: 11px;">
+                      <tr>
+                        <td style="padding-bottom: 20px;">
+                          <p style="margin: 0;">Best regards,</p>
+                          <p style="margin: 0;">The Riddler Team,</p>
+                          <p style="margin: 0;">CSI-VIT.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-top: 6px;" class="default-border">
+                          <a href="https://www.instagram.com/csivitu/" class="social-icon">
+                            <img src="https://i.imgur.com/hMBzdWv.png" alt="Instagram" width="30" style="width: 30px; height: auto;" />
+                          </a>
+                          <a href="https://www.linkedin.com/company/csivitu/" class="social-icon">
+                            <img src="https://i.imgur.com/PoShCEd.png" alt="LinkedIn" width="30" style="width: 30px; height: auto;" />
+                          </a>
+                        </td> 
+                      </tr>
+                    </table>
+
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+</html>
